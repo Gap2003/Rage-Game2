@@ -1,0 +1,38 @@
+html {
+    background-color: grey
+}
+body {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+}
+p, h1 {
+    padding: 5px
+}
+main {
+    overflow: auto
+}
+/* normal cells */
+div{
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    float: left;
+}
+/* walker color */
+.active{
+    background-color: red;
+}
+
+/* Make the cells for the track blue */
+#cell1-0, #cell2-0, #cell3-0, #cell4-0, #cell5-0, #cell6-0, #cell7-0, #cell8-0, #cell9-0, #cell10-0, #cell11-0, #cell12-0, #cell13-0, #cell14-0, #cell15-0, #cell16-0, #cell17-0, #cell18-0, #cell19-0, #cell20-0, #cell21-0, #cell22-0, #cell23-0, #cell24-0, #cell25-0, #cell26-0, #cell27-0, #cell28-0, #cell29-0, #cell30-0, #cell31-0, #cell32-0, #cell33-0, #cell34-0, #cell0-39, #cell1-39, #cell2-39, #cell3-39, #cell4-39, #cell5-39, #cell6-39, #cell7-39, #cell8-39, #cell9-39, #cell10-39, #cell11-39, #cell12-39, #cell13-39, #cell14-39, #cell15-39, #cell16-39, #cell17-39, #cell18-39, #cell19-39, #cell20-39, #cell21-39, #cell22-39, #cell23-39, #cell24-39, #cell25-39, #cell26-39, #cell27-39, #cell28-39, #cell29-39, #cell30-39, #cell31-39, #cell32-39, #cell33-39, #cell34-39, #cell34-0, #cell34-1, #cell34-2, #cell34-3, #cell34-4, #cell34-5, #cell34-6, #cell34-7, #cell34-8, #cell34-9, #cell34-10, #cell34-11, #cell34-12, #cell34-13, #cell34-14, #cell34-15, #cell34-16, #cell34-17, #cell34-18, #cell34-19, #cell34-20, #cell34-21, #cell34-22, #cell34-23, #cell34-24, #cell34-25, #cell34-26, #cell34-27, #cell34-28, #cell34-29, #cell34-30, #cell34-31, #cell34-32, #cell34-33, #cell34-34, #cell34-35, #cell34-36, #cell34-37, #cell34-38, #cell34-39, #cell0-2, #cell0-3, #cell0-4, #cell0-5, #cell0-6, #cell0-7, #cell0-8, #cell0-9, #cell0-10, #cell0-11, #cell0-12, #cell0-13, #cell0-14, #cell0-15, #cell0-16, #cell0-17, #cell0-18, #cell0-19, #cell0-20, #cell0-21, #cell0-22, #cell0-23, #cell0-24, #cell0-25, #cell0-26, #cell0-27, #cell0-28, #cell0-29, #cell0-30, #cell0-31, #cell0-32, #cell0-33, #cell0-34, #cell0-35, #cell0-36, #cell0-37, #cell0-38, #cell0-39, #cell1-2, #cell2-2, #cell2-3, #cell2-4, #cell3-4, #cell4-4, #cell4-5, #cell4-6, #cell5-6, #cell6-6, #cell6-5, #cell6-4, #cell6-3, #cell5-3, #cell5-2, #cell6-2, #cell7-2, #cell8-2, #cell9-2, #cell10-2, #cell11-2, #cell12-2, #cell13-2, #cell14-2, #cell15-2, #cell15-3, #cell15-4, #cell15-5, #cell15-6, #cell15-7, #cell15-8, #cell15-9, #cell15-10, #cell16-10, #cell17-10, #cell18-10, #cell18-11, #cell19-11, #cell20-11, #cell20-12, #cell21-12, #cell22-12, #cell22-13, #cell23-13, #cell23-14, #cell24-14, #cell24-15, #cell24-16, #cell25-16, #cell25-17, #cell25-18, #cell25-19, #cell24-19, #cell24-20, #cell24-21, #cell23-21, #cell23-22, #cell22-22, #cell22-23, #cell21-23, #cell20-23, #cell20-24, #cell19-24, #cell18-24, #cell18-25, #cell17-25, #cell16-25, #cell15-25, #cell14-25, #cell13-25, #cell12-25, #cell11-25, #cell11-24, #cell10-24, #cell9-24, #cell8-24, #cell8-23, #cell7-23, #cell6-23, #cell6-22, #cell5-22, #cell5-21, #cell4-21, #cell4-20, #cell4-19, #cell4-18, #cell4-17, #cell4-16, #cell4-15, #cell4-14, #cell5-14, #cell5-13, #cell6-13, #cell6-12, #cell7-12, #cell8-12, #cell8-11, #cell9-11, #cell10-11, #cell11-11, #cell11-12, #cell11-13, #cell10-13, #cell10-14, #cell10-14, #cell10-15, #cell9-15, #cell9-16, #cell9-17, #cell10-17, #cell11-17, #cell12-17, #cell12-16, #cell13-16, #cell14-16, #cell14-15, #cell15-15, #cell16-15, #cell16-16, #cell16-17, #cell16-18, #cell16-19, #cell16-20, #cell15-20, #cell14-20, #cell13-20, #cell13-19, #cell12-19, #cell11-19, #cell10-19, #cell9-19, #cell9-20, #cell9-21, #cell10-21, #cell10-22, #cell11-22, #cell12-22, #cell13-22, #cell14-22, #cell15-22, #cell16-22, #cell17-22, #cell18-22, #cell18-21, #cell19-21, #cell19-20, #cell20-20, #cell20-19, #cell21-19, #cell21-18, #cell21-17, #cell20-17, #cell20-16, #cell19-16, #cell19-15, #cell18-15, #cell18-14, #cell18-13, #cell17-13, #cell16-13, #cell15-13, #cell14-13, #cell13-13, #cell13-12, #cell13-11, #cell13-10, #cell13-9, #cell13-8, #cell12-8, #cell12-7, #cell11-7, #cell11-6, #cell10-6, #cell10-5, #cell9-5, #cell8-5, #cell8-6, #cell8-7, #cell8-8, #cell7-8, #cell7-9, #cell6-9, #cell6-10, #cell5-10, #cell4-10, #cell4-9, #cell4-8, #cell3-8, #cell2-8, #cell2-9, #cell2-10, #cell2-11, #cell2-12, #cell2-13, #cell2-14, #cell2-15, #cell2-16, #cell2-17, #cell2-18, #cell2-19, #cell2-20, #cell2-21, #cell2-22, #cell2-23, #cell2-24, #cell2-25, #cell2-26, #cell3-26, #cell4-26, #cell5-26, #cell6-26, #cell7-26, #cell8-26, #cell8-27, #cell8-28, #cell7-28, #cell7-29, #cell6-29, #cell6-30, #cell5-30, #cell5-31, #cell4-31, #cell4-32, #cell3-32, #cell3-33, #cell2-33, #cell2-34, #cell2-35, #cell3-35, #cell4-35, #cell4-34, #cell5-34, #cell5-33, #cell6-33, #cell6-32, #cell7-32, #cell7-31, #cell8-31, #cell8-30, #cell9-30, #cell9-29, #cell10-29, #cell10-28, #cell11-28, #cell11-27, #cell12-27, #cell13-27, #cell14-27, #cell15-27, #cell16-27, #cell17-27, #cell18-27, #cell19-27, #cell20-27, #cell20-26, #cell21-26, #cell22-26, #cell22-25, #cell23-25, #cell24-25, #cell24-24, #cell25-24, #cell25-23, #cell26-23, #cell26-22, #cell27-22, #cell27-21, #cell27-20, #cell27-19, #cell27-18, #cell27-17, #cell27-16, #cell27-15, #cell27-14, #cell26-14, #cell26-13, #cell26-12, #cell25-12, #cell25-11, #cell24-11, #cell24-10, #cell23-10, #cell22-10, #cell22-9, #cell21-9, #cell20-9, #cell20-8, #cell21-8, #cell21-7, #cell22-7, #cell22-6, #cell23-6, #cell23-5, #cell24-5, #cell25-5, #cell25-6, #cell26-6, #cell26-7, #cell27-7, #cell27-8, #cell28-8, #cell28-9, #cell29-9, #cell30-9, #cell30-8, #cell30-7, #cell29-7, #cell29-6, #cell28-6, #cell28-5, #cell27-5, #cell27-4, #cell26-4, #cell26-3, #cell26-2, #cell27-2, #cell28-2, #cell29-2, #cell30-2, #cell31-2, #cell32-2, #cell32-3, #cell32-4, #cell32-5, #cell32-6, #cell32-7, #cell32-8, #cell32-9, #cell32-10, #cell32-11, #cell32-12, #cell31-12, #cell30-12, #cell29-12, #cell29-13, #cell29-14, #cell30-14, #cell31-14, #cell31-15, #cell32-15, #cell32-16, #cell32-17, #cell32-18, #cell31-18, #cell30-18, #cell29-18, #cell29-19, #cell29-20, #cell29-21, #cell29-22, #cell29-23, #cell30-23, #cell30-24, #cell31-24, #cell31-25, #cell32-25, #cell32-26, #cell32-27, #cell32-28, #cell32-29, #cell32-30, #cell32-31, #cell32-32, #cell32-33, #cell32-34, #cell32-35, #cell32-36, #cell32-37, #cell31-37, #cell30-37, #cell29-37, #cell29-36, #cell29-35, #cell29-34, #cell29-33, #cell29-32, #cell29-31, #cell29-30, #cell29-29, #cell29-28, #cell29-27, #cell29-26, #cell28-26, #cell27-26, #cell26-26, #cell26-27, #cell26-28, #cell27-28, #cell27-29, #cell27-30, #cell27-31, #cell27-32, #cell26-32, #cell26-33, #cell26-34, #cell26-35, #cell26-36, #cell25-36, #cell25-37, #cell24-37, #cell23-37, #cell23-36, #cell22-36, #cell22-35, #cell22-34, #cell23-34, #cell23-33, #cell24-33, #cell24-32, #cell24-31, #cell24-30, #cell23-30, #cell23-29, #cell22-29, #cell21-29, #cell21-30, #cell20-30, #cell20-31, #cell20-32, #cell20-33, #cell20-34, #cell20-35, #cell20-36, #cell19-36, #cell18-36, #cell17-36, #cell16-36, #cell15-36, #cell14-36, #cell13-36, #cell12-36, #cell11-36, #cell10-36, #cell9-36, #cell8-36, #cell8-35, #cell8-34, #cell9-34, #cell9-33, #cell10-33, #cell10-32, #cell11-32, #cell11-31, #cell12-31, #cell12-30, #cell13-30, #cell13-29, #cell14-29, #cell15-29, #cell16-29, #cell17-29, #cell18-29, #cell18-30, #cell18-31, #cell18-32, #cell18-33, #cell18-34, #cell17-34, #cell16-34, #cell15-34, #cell14-34, #cell13-34, #cell13-33, #cell13-32, #cell14-32, #cell15-32, #cell15-31{
+    background-color: red;
+    border-color: red
+}
+/* end cell */
+#cell16-31{
+    background-color: gold;
+    border-color: gold;
+}
